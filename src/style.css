@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size:large;
+  font-family: sans-serif;
+  
+  color: #e5daff;
+}
+
+
+
+.navbar{
+  background: black;
+  display: flex;
+  padding: 20px;
+  height: 56px;
+  
+}
+
+.logo{
+  margin-top: -16px;
+  padding: 0px;
+
+}
+
+.logoimg{
+  
+  width: 46px;
+  padding: 0px;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul{ 
+  display: inline-block; list-style-type: none;
+}
+
+nav li{
+  
+  display: inline-block;
+  margin-right: 18px;
+  margin-inline-end: 30px;
+  
+}
+
+.navbarnav:hover{
+  transform: translateY(-1.1px);
+  text-shadow: 1px 8px 8px #c3177d; 
+}
+
+a{
+  text-decoration: none;
+  color: white; font-weight: 500;
+}
+
+
+/* --------------------- Media Query ----------------------- */
+
+@media only screen and (max-width: 600px) {
+  nav li{
+    margin-right: 12px;
+    
+  }
+
+  .logo{
+    margin-left: -10px;
+  }
+}
